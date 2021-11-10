@@ -6,10 +6,10 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigReader {
-    //1-Properties objesi oluşturacagiz
+
     static   Properties properties;
 
-    //2-Bu class'in amacı configuration.properties dosyasını okumak
+    //-Bu class'in amacı configuration.properties dosyasını okumak
     //ve oradaki key value ikililerini kullanarak istedigimiz key'e ait value'yu bize getirmek
     static {
         String dosyaYolu="configuration.properties";
@@ -26,7 +26,7 @@ public class ConfigReader {
     }
 
 
-    //3-test class'larindan configReader class'ina ulaşıp yukarıdaki islemleriyapmamızı sağlayacak
+    //test class'larindan configReader class'ina ulaşıp yukarıdaki islemleriyapmamızı sağlayacak
     //bir method oluşturacagiz
     public static String getProperty(String key){
 

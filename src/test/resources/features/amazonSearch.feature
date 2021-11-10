@@ -1,5 +1,6 @@
+
 Feature: US999 amazon arama
-@amazon
+  @amazon
   Scenario: TC001 amazon java arama
 
 
@@ -7,3 +8,20 @@ Feature: US999 amazon arama
     And   "java" için arama yapar
     Then sonucun java icerdigini test eder
     And sayfayi kapatir
+
+#Youtube ana sayfasina gidelim . https://www.youtube.com/
+#Amazon soyfasina gidelim. https://www.amazon.com/
+#Sayfa basliginin (title) “amazon” oldugunu dogrulayin. (verify)
+#Tekrar YouTube’sayfasina donelim
+#Sayfa URL’inin www.youtube.com oldugunu dogrulayin
+#Yeniden Amazon sayfasina gidelim
+
+Scenario: TC002 Youtube'a git Amazon'a dön
+
+  Given "youtubeURL" ana sayfasina gidelim
+  Then kullanici amazon sayfasina gider
+  And Sayfa basliginin (title) "Amazon" icerdigi dogrulayin.
+  Then "youtubeURL" ana sayfasina gidelim
+  And Sayfa URL’inin "https://www.youtube.com/" oldugunu dogrulayin
+  Then kullanici amazon sayfasina gider
+  And sayfayi kapatir
