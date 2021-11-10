@@ -25,3 +25,11 @@ Scenario: TC002 Youtube'a git Amazon'a dön
   And Sayfa URL’inin "https://www.youtube.com/" oldugunu dogrulayin
   Then kullanici amazon sayfasina gider
   And sayfayi kapatir
+
+  #Facebook ana sayfasina gidelim . https://www.facebook.com/
+  #email textbox'a e-mail yazdiralim
+  #şifre textbox'a şifre yazdiralim
+  #giris yap butanuna tıklayalım
+  #hata mesajını doğrulayalım.
+
+  Scenario:
