@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.384">
+    <testcase classname="1003 TestAdress" name="TC004 TestAddressBook" time="0.101">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given "testAdressUrl" ana sayfasina gidelim.................................undefined
+Then TestAdress sayfasindaKullanıcı adını ve şifreyi girin ve oturum aç (sign in)buttonunu tıklayın.skipped
+And user id nin testtechproed@gmail.com oldugunu dogrulayin(verify).........skipped
+And Sayfada kac tane link oldugunu bulun....................................skipped
+Then linklerin yazılarını yazdiralim........................................skipped
+And sayfayi kapatir.........................................................skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>

@@ -13,7 +13,7 @@ public class Driver {
 
     private Driver(){
 
-    }
+    }//-->singilteon classsiç için
     private static WebDriver driver;
 
     public static WebDriver getDriver(){

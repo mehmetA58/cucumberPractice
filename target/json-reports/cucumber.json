@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-11T22:46:26.519Z",
+        "line": 11,
+        "name": "TC004 TestAddressBook",
+        "description": "",
+        "id": "1003-testadress;tc004-testaddressbook",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "\"testAdressUrl\" ana sayfasina gidelim",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "TestAdress sayfasindaKullanıcı adını ve şifreyi girin ve oturum aç (sign in)buttonunu tıklayın",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user id nin testtechproed@gmail.com oldugunu dogrulayin(verify).",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Sayfada kac tane link oldugunu bulun.",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "linklerin yazılarını yazdiralim",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "sayfayi kapatir",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testAdress"
+          }
+        ]
+      }
+    ],
+    "name": "1003 TestAdress",
+    "description": "",
+    "id": "1003-testadress",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/testAdress.feature",
+    "tags": []
+  }
+]

@@ -49,4 +49,7 @@ public class amazonStepDefinitions {
     public void sayfaURLIninOldugunuDogrulayin(String URL) {
         Assert.assertTrue(Driver.getDriver().getCurrentUrl().equals(URL));
     }
+
+
+
 }
