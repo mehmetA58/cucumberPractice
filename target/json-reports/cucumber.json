@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-11-11T22:46:26.519Z",
-        "line": 11,
-        "name": "TC004 TestAddressBook",
+        "start_timestamp": "2021-11-14T12:26:56.681Z",
+        "line": 9,
+        "name": "TC005 herokuapp visit.",
         "description": "",
-        "id": "1003-testadress;tc004-testaddressbook",
+        "id": "1004-herokuapp-visit-and-click;tc005-herokuapp-visit.",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
@@ -15,8 +15,8 @@
             "result": {
               "status": "undefined"
             },
-            "line": 12,
-            "name": "\"testAdressUrl\" ana sayfasina gidelim",
+            "line": 11,
+            "name": "\"herokuAppUrl\" ana sayfasina gidelim",
             "match": {},
             "keyword": "Given "
           },
@@ -24,8 +24,8 @@
             "result": {
               "status": "skipped"
             },
-            "line": 13,
-            "name": "TestAdress sayfasindaKullanıcı adını ve şifreyi girin ve oturum aç (sign in)buttonunu tıklayın",
+            "line": 12,
+            "name": "Add Element butonuna basin",
             "match": {},
             "keyword": "Then "
           },
@@ -33,8 +33,8 @@
             "result": {
               "status": "skipped"
             },
-            "line": 14,
-            "name": "user id nin testtechproed@gmail.com oldugunu dogrulayin(verify).",
+            "line": 13,
+            "name": "Delete butonu’nun gorunur oldugunu test edin",
             "match": {},
             "keyword": "And "
           },
@@ -42,8 +42,17 @@
             "result": {
               "status": "skipped"
             },
+            "line": 14,
+            "name": "Delete tusuna basin",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
             "line": 15,
-            "name": "Sayfada kac tane link oldugunu bulun.",
+            "name": "Delete butonunun gorunur olmadigini test edin",
             "match": {},
             "keyword": "And "
           },
@@ -52,15 +61,6 @@
               "status": "skipped"
             },
             "line": 16,
-            "name": "linklerin yazılarını yazdiralim",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 17,
             "name": "sayfayi kapatir",
             "match": {},
             "keyword": "And "
@@ -68,16 +68,16 @@
         ],
         "tags": [
           {
-            "name": "@testAdress"
+            "name": "@herokuapp"
           }
         ]
       }
     ],
-    "name": "1003 TestAdress",
+    "name": "1004 Herokuapp visit and click",
     "description": "",
-    "id": "1003-testadress",
+    "id": "1004-herokuapp-visit-and-click",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/testAdress.feature",
+    "uri": "file:src/test/resources/features/herokuapp.feature",
     "tags": []
   }
 ]

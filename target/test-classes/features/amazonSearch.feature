@@ -26,10 +26,12 @@ Scenario: TC002 Youtube'a git Amazon'a dön
   Then kullanici amazon sayfasina gider
   And sayfayi kapatir
 
-  #Facebook ana sayfasina gidelim . https://www.facebook.com/
-  #email textbox'a e-mail yazdiralim
-  #şifre textbox'a şifre yazdiralim
-  #giris yap butanuna tıklayalım
-  #hata mesajını doğrulayalım.
+  #Amazon soyfasina gidelim. https://www.amazon.com/
+  #Search(ara) “city bike”
+  #görüntülenen ilgili sonuçların sayısını yazdırın
+  #“Shopping” e tıklayın.
+  #Sonra karşınıza çıkan ilk sonucun resmine tıklayın
+  #Sonucun “city bike” içerdiğini test edin.
+  #gelen sonuclardan 4.ve 7.nin isimlerini yazdirin
 
-  Scenario:
+  Scenario:TC006 Amazon Arama sonuclarını yazdirma.

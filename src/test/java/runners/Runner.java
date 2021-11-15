@@ -11,8 +11,8 @@ import org.junit.runner.RunWith;
         "junit:target/xml-report/cucumber.xml"},
         features = "src/test/resources/features",
         glue = "src/test/java/stepdefinitions",
-        tags = " @testAdress",
-        dryRun = true// dryRun=true dedigimizde testi calistirmadan bize eksik adimi verir
+        tags = " @herokuapp",
+        dryRun =true// dryRun=true dedigimizde testi calistirmadan bize eksik adimi verir
         // dryRun=false yaparsak testi calistirir, eksik bir adimla karsilasirsa
         // test failed olur ve bize eksik adimi raporlar
 )
