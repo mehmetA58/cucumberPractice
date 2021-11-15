@@ -1,12 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.265">
-    <testcase classname="1004 Herokuapp visit and click" name="TC005 herokuapp visit." time="0.078">
+<testsuite errors="0" failures="4" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="0.304">
+    <testcase classname="US999 amazon arama" name="TC006 Amazon Arama" time="0.075">
         <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given "herokuAppUrl" ana sayfasina gidelim..................................undefined
-Then Add Element butonuna basin.............................................skipped
-And Delete butonu’nun gorunur oldugunu test edin............................skipped
-Then Delete tusuna basin....................................................skipped
-And Delete butonunun gorunur olmadigini test edin...........................skipped
+            <![CDATA[Given kullanici amazon sayfasina gider......................................undefined
+Then "mango" için arama yapar...............................................skipped
+When bulunan sonuc sayisini yazdirir........................................skipped
+And sayfayi kapatir.........................................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US999 amazon arama" name="TC006 Amazon Arama 2" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given kullanici amazon sayfasina gider......................................undefined
+Then "nane" için arama yapar................................................skipped
+When bulunan sonuc sayisini yazdirir........................................skipped
+And sayfayi kapatir.........................................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US999 amazon arama" name="TC006 Amazon Arama 3" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given kullanici amazon sayfasina gider......................................undefined
+Then "java" için arama yapar................................................skipped
+When bulunan sonuc sayisini yazdirir........................................skipped
+And sayfayi kapatir.........................................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US999 amazon arama" name="TC006 Amazon Arama 4" time="0.005">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given kullanici amazon sayfasina gider......................................undefined
+Then "cucumber" için arama yapar............................................skipped
+When bulunan sonuc sayisini yazdirir........................................skipped
 And sayfayi kapatir.........................................................skipped
 ]]>
         </failure>

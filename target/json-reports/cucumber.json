@@ -1,22 +1,22 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-11-14T12:26:56.681Z",
-        "line": 9,
-        "name": "TC005 herokuapp visit.",
+        "start_timestamp": "2021-11-15T17:03:09.221Z",
+        "line": 42,
+        "name": "TC006 Amazon Arama",
         "description": "",
-        "id": "1004-herokuapp-visit-and-click;tc005-herokuapp-visit.",
+        "id": "us999-amazon-arama;tc006-amazon-arama;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
               "status": "undefined"
             },
-            "line": 11,
-            "name": "\"herokuAppUrl\" ana sayfasina gidelim",
+            "line": 36,
+            "name": "kullanici amazon sayfasina gider",
             "match": {},
             "keyword": "Given "
           },
@@ -24,8 +24,8 @@
             "result": {
               "status": "skipped"
             },
-            "line": 12,
-            "name": "Add Element butonuna basin",
+            "line": 37,
+            "name": "\"mango\" için arama yapar",
             "match": {},
             "keyword": "Then "
           },
@@ -33,34 +33,16 @@
             "result": {
               "status": "skipped"
             },
-            "line": 13,
-            "name": "Delete butonu’nun gorunur oldugunu test edin",
+            "line": 38,
+            "name": "bulunan sonuc sayisini yazdirir.",
             "match": {},
-            "keyword": "And "
+            "keyword": "When "
           },
           {
             "result": {
               "status": "skipped"
             },
-            "line": 14,
-            "name": "Delete tusuna basin",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 15,
-            "name": "Delete butonunun gorunur olmadigini test edin",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 16,
+            "line": 39,
             "name": "sayfayi kapatir",
             "match": {},
             "keyword": "And "
@@ -68,16 +50,176 @@
         ],
         "tags": [
           {
-            "name": "@herokuapp"
+            "name": "@amazonOutline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-15T17:03:09.312Z",
+        "line": 43,
+        "name": "TC006 Amazon Arama",
+        "description": "",
+        "id": "us999-amazon-arama;tc006-amazon-arama;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 36,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "\"nane\" için arama yapar",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "bulunan sonuc sayisini yazdirir.",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000700,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "sayfayi kapatir",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazonOutline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-15T17:03:09.320Z",
+        "line": 44,
+        "name": "TC006 Amazon Arama",
+        "description": "",
+        "id": "us999-amazon-arama;tc006-amazon-arama;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 36,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "\"java\" için arama yapar",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000900,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "bulunan sonuc sayisini yazdirir.",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "sayfayi kapatir",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazonOutline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-15T17:03:09.329Z",
+        "line": 45,
+        "name": "TC006 Amazon Arama",
+        "description": "",
+        "id": "us999-amazon-arama;tc006-amazon-arama;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 36,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1001000,
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "\"cucumber\" için arama yapar",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "bulunan sonuc sayisini yazdirir.",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000300,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "sayfayi kapatir",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazonOutline"
           }
         ]
       }
     ],
-    "name": "1004 Herokuapp visit and click",
+    "name": "US999 amazon arama",
     "description": "",
-    "id": "1004-herokuapp-visit-and-click",
+    "id": "us999-amazon-arama",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/herokuapp.feature",
+    "uri": "file:src/test/resources/features/amazonSearch.feature",
     "tags": []
   }
 ]

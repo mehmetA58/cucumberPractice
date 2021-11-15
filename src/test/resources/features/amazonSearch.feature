@@ -1,6 +1,6 @@
 
 Feature: US999 amazon arama
-  @amazon
+
   Scenario: TC001 amazon java arama
 
 
@@ -26,12 +26,58 @@ Scenario: TC002 Youtube'a git Amazon'a dön
   Then kullanici amazon sayfasina gider
   And sayfayi kapatir
 
-  #Amazon soyfasina gidelim. https://www.amazon.com/
-  #Search(ara) “city bike”
-  #görüntülenen ilgili sonuçların sayısını yazdırın
-  #“Shopping” e tıklayın.
-  #Sonra karşınıza çıkan ilk sonucun resmine tıklayın
-  #Sonucun “city bike” içerdiğini test edin.
-  #gelen sonuclardan 4.ve 7.nin isimlerini yazdirin
 
-  Scenario:TC006 Amazon Arama sonuclarını yazdirma.
+
+
+  #Amazon soyfasina gidelim. https://www.amazon.com/
+  #Search(ara) “mango”,"nane","java","cucumber"için arama yap
+  #görüntülenen ilgili sonuçların sayısını yazdırın
+
+@amazonOutline
+  Scenario Outline:TC006 Amazon Arama
+
+   Given kullanici amazon sayfasina gider
+    When "<arananKelime>" için arama yapar
+    Then Amazonda görüntülenen ilgili sonuçların sayısını yazdırın
+    And Amazonda görüntülenen ilgili sonuclar "<arananKelime>" iceriyormu
+    And sayfayi kapatir
+  Examples:
+    | arananKelime |
+  |mango         |
+  |nane          |
+  |java          |
+  |cucumber      |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

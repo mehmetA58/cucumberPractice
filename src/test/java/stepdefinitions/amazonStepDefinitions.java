@@ -51,5 +51,13 @@ public class amazonStepDefinitions {
     }
 
 
+    @Then("Amazonda görüntülenen ilgili sonuçların sayısını yazdırın")
+    public void amazondaGörüntülenenIlgiliSonuçlarınSayısınıYazdırın() {
+        System.out.println("amazon sonucYazisi = " + amazonPage.sonucYazisi.getText());
+    }
 
+    @And("Amazonda görüntülenen ilgili sonuclar {string} iceriyormu")
+    public void amazondaGörüntülenenIlgiliSonuclarIceriyormu(String arananKelime) {
+        Assert.assertTrue(amazonPage.sonucYazisi.getText().contains(arananKelime));
+    }
 }
