@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-11-18T07:12:56.846Z",
+        "start_timestamp": "2021-11-17T10:31:50.361Z",
         "before": [
           {
             "result": {
-              "duration": 1000300,
+              "duration": 2002000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 2001400,
+              "duration": 3002300,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 20116507800,
+              "duration": 8764693700,
               "status": "passed"
             },
             "line": 21,
@@ -53,7 +53,7 @@
           },
           {
             "result": {
-              "duration": 8936914900,
+              "duration": 3997453500,
               "status": "passed"
             },
             "line": 22,
@@ -65,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 47029300,
+              "duration": 6004300,
               "status": "passed"
             },
             "line": 23,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 4488130800,
+              "duration": 2946894000,
               "status": "passed"
             },
             "line": 24,
@@ -101,7 +101,7 @@
           },
           {
             "result": {
-              "duration": 31021000,
+              "duration": 11007100,
               "status": "passed"
             },
             "line": 25,
@@ -119,7 +119,7 @@
           },
           {
             "result": {
-              "duration": 2370197400,
+              "duration": 1595058500,
               "status": "passed"
             },
             "line": 26,
@@ -131,7 +131,7 @@
           },
           {
             "result": {
-              "duration": 760682500,
+              "duration": 621017000,
               "status": "passed"
             },
             "line": 27,
@@ -157,6 +157,141 @@
     "id": "us999-amazon-arama",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/amazonSearch.feature",
+    "tags": [
+      {
+        "name": "@hepsi",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-17T10:32:08.420Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "TC003 Facebook",
+        "description": "",
+        "id": "1002-facebook-handle;tc003-facebook",
+        "after": [
+          {
+            "result": {
+              "duration": 1000700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4013083600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "\"facebookURL\" ana sayfasina gidelim",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"facebookURL\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.anaSayfasinaGidelim(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 262654900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "facebookEmailTextboxa email yazdiralim",
+            "match": {
+              "location": "stepdefinitions.facebookStepDefinitions.facebook_email_textboxa_email_yazdiralim()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 76050400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "facebookPasswordTextboxa sifre yazdiralim",
+            "match": {
+              "location": "stepdefinitions.facebookStepDefinitions.facebook_password_textboxa_sifre_yazdiralim()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 53036800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "facebook login butonunu tıklayalım",
+            "match": {
+              "location": "stepdefinitions.facebookStepDefinitions.facebook_login_butonunu_tıklayalım()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2338390100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "facebookBasarisizGiris dogrulama",
+            "match": {
+              "location": "stepdefinitions.facebookStepDefinitions.facebook_basarisiz_giris_dogrulama()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 583841400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hepsi"
+          }
+        ]
+      }
+    ],
+    "name": "1002 Facebook Handle",
+    "description": "",
+    "id": "1002-facebook-handle",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/facebook.feature",
     "tags": [
       {
         "name": "@hepsi",
