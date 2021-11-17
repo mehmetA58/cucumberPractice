@@ -46,7 +46,7 @@ public class Driver {
     }
     public static void closeDriver(){
         if (driver!=null){
-            driver.quit();
+           // driver.quit();
         }
         // burada yeniden null degeri atamamizin sebebi. bir sonraki getDriver method'u cagirisimizda
         // yeni deger atayabilmek istememizdir.

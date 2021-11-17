@@ -12,7 +12,7 @@ Feature: 1003 TestAdress
   #Password : Test1234!
   #user id nin testtechproed@gmail.com
   @testAdress
-  Scenario: TC004 TestAddressBook
+  Scenario: TC005 TestAddressBook
     Given "testAdressUrl" ana sayfasina gidelim
     Then  TestAdreesAnasayfa Sign in butonuna tiklayin
     And  TestAdressKullanıcı adını ve şifreyi girin

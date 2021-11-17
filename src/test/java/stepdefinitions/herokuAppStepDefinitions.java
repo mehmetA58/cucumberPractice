@@ -26,4 +26,11 @@ public class herokuAppStepDefinitions {
         herokuAppPage.deleteButonu.click();
 
     }
+
+
+    @Then("herokuappBasariliGirisDogrula")
+    public void herokuappbasariligirisdogrula() throws InterruptedException {
+        Thread.sleep(2000);
+        Assert.assertTrue(herokuAppPage.basariliGirisYazisi.isDisplayed());
+    }
 }

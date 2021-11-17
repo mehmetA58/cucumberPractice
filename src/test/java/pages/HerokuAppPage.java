@@ -11,10 +11,15 @@ public class HerokuAppPage {
 
     }
 
-@FindBy (xpath = "(//button[@onclick='addElement()'])")
+    @FindBy (xpath = "(//button[@onclick='addElement()'])")
     public WebElement addElementButonu;
 
     @FindBy(xpath = "(//button[@onclick='deleteElement()'])")
     public WebElement deleteButonu;
+
+    @FindBy(xpath = "(//div[@class='example'])")
+    public WebElement basariliGirisYazisi;
+
+
 
 }

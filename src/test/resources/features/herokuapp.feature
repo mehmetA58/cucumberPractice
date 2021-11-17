@@ -13,3 +13,12 @@ Feature: 1004 Herokuapp visit and click
   And Delete butonu’nun gorunur oldugunu test edin
   Then Delete tusuna tiklayalim
   And sayfayi kapatir
+  
+   #https://the-internet.herokuapp.com/basic_auth
+  #username:admin
+  #password:admin
+  #https://admin:admin@the-internet.herokuapp.com/basic_auth
+  Scenario: TC007 Authentication
+  Given "authenticationUrl" ana sayfasina gidelim
+  Then herokuappBasariliGirisDogrula
+    And sayfayi kapatir
