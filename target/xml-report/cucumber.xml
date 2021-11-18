@@ -1,39 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="4" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="0.304">
-    <testcase classname="US999 amazon arama" name="TC006 Amazon Arama" time="0.075">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given kullanici amazon sayfasina gider......................................undefined
-Then "mango" için arama yapar...............................................skipped
-When bulunan sonuc sayisini yazdirir........................................skipped
-And sayfayi kapatir.........................................................skipped
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="37.183">
+    <testcase classname="US999 amazon arama" name="TC002 Youtube'a git Amazon'a dön" time="36.854">
+        <system-out>
+            <![CDATA[Given "youtubeURL" ana sayfasina gidelim....................................passed
+Then kullanici amazon sayfasina gider.......................................passed
+And Sayfa basliginin (title) "Amazon" icerdigi dogrulayin...................passed
+Then "youtubeURL" ana sayfasina gidelim.....................................passed
+And Sayfa URL’inin "https://www.youtube.com/" oldugunu dogrulayin...........passed
+Then kullanici amazon sayfasina gider.......................................passed
+And sayfayi kapatir.........................................................passed
 ]]>
-        </failure>
-    </testcase>
-    <testcase classname="US999 amazon arama" name="TC006 Amazon Arama 2" time="0.003">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given kullanici amazon sayfasina gider......................................undefined
-Then "nane" için arama yapar................................................skipped
-When bulunan sonuc sayisini yazdirir........................................skipped
-And sayfayi kapatir.........................................................skipped
-]]>
-        </failure>
-    </testcase>
-    <testcase classname="US999 amazon arama" name="TC006 Amazon Arama 3" time="0.003">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given kullanici amazon sayfasina gider......................................undefined
-Then "java" için arama yapar................................................skipped
-When bulunan sonuc sayisini yazdirir........................................skipped
-And sayfayi kapatir.........................................................skipped
-]]>
-        </failure>
-    </testcase>
-    <testcase classname="US999 amazon arama" name="TC006 Amazon Arama 4" time="0.005">
-        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
-            <![CDATA[Given kullanici amazon sayfasina gider......................................undefined
-Then "cucumber" için arama yapar............................................skipped
-When bulunan sonuc sayisini yazdirir........................................skipped
-And sayfayi kapatir.........................................................skipped
-]]>
-        </failure>
+        </system-out>
     </testcase>
 </testsuite>

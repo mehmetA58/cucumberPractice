@@ -1,3 +1,4 @@
+@hepsi
 Feature: 1003 TestAdress
     #http://a.testaddressbook.com adresine gidiniz.
   #Sign in butonuna basin

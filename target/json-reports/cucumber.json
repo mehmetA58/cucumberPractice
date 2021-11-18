@@ -3,214 +3,151 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-11-15T17:03:09.221Z",
-        "line": 42,
-        "name": "TC006 Amazon Arama",
-        "description": "",
-        "id": "us999-amazon-arama;tc006-amazon-arama;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 36,
-            "name": "kullanici amazon sayfasina gider",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 37,
-            "name": "\"mango\" için arama yapar",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 38,
-            "name": "bulunan sonuc sayisini yazdirir.",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 39,
-            "name": "sayfayi kapatir",
-            "match": {},
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@amazonOutline"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-11-15T17:03:09.312Z",
-        "line": 43,
-        "name": "TC006 Amazon Arama",
-        "description": "",
-        "id": "us999-amazon-arama;tc006-amazon-arama;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 36,
-            "name": "kullanici amazon sayfasina gider",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 37,
-            "name": "\"nane\" için arama yapar",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 38,
-            "name": "bulunan sonuc sayisini yazdirir.",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1000700,
-              "status": "skipped"
-            },
-            "line": 39,
-            "name": "sayfayi kapatir",
-            "match": {},
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@amazonOutline"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-11-15T17:03:09.320Z",
-        "line": 44,
-        "name": "TC006 Amazon Arama",
-        "description": "",
-        "id": "us999-amazon-arama;tc006-amazon-arama;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 36,
-            "name": "kullanici amazon sayfasina gider",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 37,
-            "name": "\"java\" için arama yapar",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1000900,
-              "status": "skipped"
-            },
-            "line": 38,
-            "name": "bulunan sonuc sayisini yazdirir.",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 39,
-            "name": "sayfayi kapatir",
-            "match": {},
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@amazonOutline"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-11-15T17:03:09.329Z",
-        "line": 45,
-        "name": "TC006 Amazon Arama",
-        "description": "",
-        "id": "us999-amazon-arama;tc006-amazon-arama;;5",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 36,
-            "name": "kullanici amazon sayfasina gider",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1001000,
-              "status": "skipped"
-            },
-            "line": 37,
-            "name": "\"cucumber\" için arama yapar",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 38,
-            "name": "bulunan sonuc sayisini yazdirir.",
-            "match": {},
-            "keyword": "When "
-          },
+        "start_timestamp": "2021-11-18T07:12:56.846Z",
+        "before": [
           {
             "result": {
               "duration": 1000300,
-              "status": "skipped"
+              "status": "passed"
             },
-            "line": 39,
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "TC002 Youtube\u0027a git Amazon\u0027a dön",
+        "description": "",
+        "id": "us999-amazon-arama;tc002-youtube-a-git-amazon-a-dön",
+        "after": [
+          {
+            "result": {
+              "duration": 2001400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20116507800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "\"youtubeURL\" ana sayfasina gidelim",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"youtubeURL\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.anaSayfasinaGidelim(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8936914900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47029300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Sayfa basliginin (title) \"Amazon\" icerdigi dogrulayin.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amazon\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.sayfaBasligininTitleIcerdigiDogrulayin(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4488130800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "\"youtubeURL\" ana sayfasina gidelim",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"youtubeURL\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.anaSayfasinaGidelim(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31021000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Sayfa URL’inin \"https://www.youtube.com/\" oldugunu dogrulayin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.youtube.com/\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.sayfaURLIninOldugunuDogrulayin(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2370197400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 760682500,
+              "status": "passed"
+            },
+            "line": 27,
             "name": "sayfayi kapatir",
-            "match": {},
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayiKapatir()"
+            },
             "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@amazonOutline"
+            "name": "@hepsi"
+          },
+          {
+            "name": "@tekrarAmazon"
           }
         ]
       }
@@ -220,6 +157,15 @@
     "id": "us999-amazon-arama",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/amazonSearch.feature",
-    "tags": []
+    "tags": [
+      {
+        "name": "@hepsi",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

@@ -1,3 +1,4 @@
+@hepsi
 Feature: 1004 Herokuapp visit and click
 
 #https://the-internet.herokuapp.com/add_remove_elements/ adresine gidin

@@ -1,4 +1,4 @@
-
+@hepsi
 Feature: US999 amazon arama
 
   Scenario: TC001 amazon java arama
@@ -15,7 +15,7 @@ Feature: US999 amazon arama
 #Tekrar YouTube’sayfasina donelim
 #Sayfa URL’inin www.youtube.com oldugunu dogrulayin
 #Yeniden Amazon sayfasina gidelim
-
+@tekrarAmazon
 Scenario: TC002 Youtube'a git Amazon'a dön
 
   Given "youtubeURL" ana sayfasina gidelim

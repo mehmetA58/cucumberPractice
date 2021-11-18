@@ -1,3 +1,4 @@
+@hepsi
 Feature: 1002 Facebook Handle
 
   Scenario: TC003 Facebook
