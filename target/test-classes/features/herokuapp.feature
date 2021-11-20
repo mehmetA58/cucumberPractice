@@ -21,4 +21,4 @@ Feature: 1004 Herokuapp visit and click
   Scenario: TC007 Authentication
   Given "authenticationUrl" ana sayfasina gidelim
   Then herokuappBasariliGirisDogrula
-    #And sayfayi kapatir
+    And sayfayi kapatir
