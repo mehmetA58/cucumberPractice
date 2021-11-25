@@ -23,4 +23,3 @@ Feature: 1005 https://www.saucedemo.com Adresine gidin
     Then Sectiginiz urunun basarili olarak sepete eklendigini control edin
     And sayfayi kapatir
 
-
