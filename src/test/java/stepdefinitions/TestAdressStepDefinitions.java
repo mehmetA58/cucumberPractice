@@ -5,14 +5,14 @@ import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import pages.TestAdressPAge;
+import pages.TestAdressPage;
 import utilities.Driver;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class TestAdressStepDefinitions {
-    TestAdressPAge testAdressPAge=new TestAdressPAge();
+    TestAdressPage testAdressPAge=new TestAdressPage();
 
     @Then("TestAdreesAnasayfa Sign in butonuna tiklayin")
     public void testadreesanasayfaSignInButonunaTiklayin() {

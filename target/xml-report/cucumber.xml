@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="25.64">
-    <testcase classname="US999 amazon arama" name="TC002 Youtube'a git Amazon'a dön" time="18.026">
-        <system-out>
-            <![CDATA[Given "youtubeURL" ana sayfasina gidelim....................................passed
-Then kullanici amazon sayfasina gider.......................................passed
-And Sayfa basliginin (title) "Amazon" icerdigi dogrulayin...................passed
-Then "youtubeURL" ana sayfasina gidelim.....................................passed
-And Sayfa URL’inin "https://www.youtube.com/" oldugunu dogrulayin...........passed
-Then kullanici amazon sayfasina gider.......................................passed
-And sayfayi kapatir.........................................................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.586">
+    <testcase classname="US1007" name="TC010" time="0.224">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given "dhtmlgoodies" ana sayfasina gidelim..................................passed
+Then DhtmlFill in capitals by country.......................................undefined
 ]]>
-        </system-out>
-    </testcase>
-    <testcase classname="1002 Facebook Handle" name="TC003 Facebook" time="7.339">
-        <system-out>
-            <![CDATA[Given "facebookURL" ana sayfasina gidelim...................................passed
-Then facebookEmailTextboxa email yazdiralim.................................passed
-Then facebookPasswordTextboxa sifre yazdiralim..............................passed
-And facebook login butonunu tıklayalım......................................passed
-Then facebookBasarisizGiris dogrulama.......................................passed
-And sayfayi kapatir.........................................................passed
-]]>
-        </system-out>
+        </failure>
     </testcase>
 </testsuite>

@@ -1,4 +1,4 @@
-Feature: 1006 Demo guru Drag and Drop
+Feature: US1006 Demo guru Drag and Drop
   
   Scenario: TC009 Drag and Drop
     
@@ -16,3 +16,4 @@ Feature: 1006 Demo guru Drag and Drop
     And Drag and drop the 5000 button to the Amount section in DEBIT SIDE
     When PerfectButton visibilty do test
     And sayfayi kapatir
+
