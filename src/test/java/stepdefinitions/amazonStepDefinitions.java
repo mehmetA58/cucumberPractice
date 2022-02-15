@@ -5,10 +5,21 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
 import pages.AmazonPage;
 import utilities.ConfigReader;
 import utilities.Driver;
+
+import javax.imageio.ImageIO;
+import javax.print.DocFlavor;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.List;
 
 public class amazonStepDefinitions {
     AmazonPage amazonPage=new AmazonPage();
@@ -59,5 +70,21 @@ public class amazonStepDefinitions {
     @And("Amazonda görüntülenen ilgili sonuclar {string} iceriyormu")
     public void amazondaGörüntülenenIlgiliSonuclarIceriyormu(String arananKelime) {
         Assert.assertTrue(amazonPage.sonucYazisi.getText().contains(arananKelime));
+    }
+
+    @And("resimleri indirir")
+    public void resimleriIndirir() throws IOException {
+      //WebElement resim= Driver.getDriver().findElement(By.xpath("(//img[@class='s-image'])"));
+        List<WebElement>resim= (List<WebElement>) Driver.getDriver().findElements(By.xpath("//img[@class='s-image']"));
+        for (int i = 0; i <resim.size() ; i++) {
+            String resimSRC=resim.get(i).getAttribute("src");
+            URL resimURL=new URL(resimSRC);
+            BufferedImage resmiKaydet= ImageIO.read(resimURL);
+            ImageIO.write(resmiKaydet,"png",new File("pictureStore/AmazonArama"+i+".png"));
+        }
+
+        //System.out.println(resimSRC);
+
+
     }
 }

@@ -1,13 +1,21 @@
 @hepsi
 Feature: US999 amazon arama
 
-  Scenario: TC001 amazon java arama
+  Scenario Outline: TC001 amazon java arama
 
 
     When  kullanici amazon sayfasina gider
-    And   "java" için arama yapar
-    Then sonucun java icerdigini test eder
+    And   "<product>" için arama yapar
+
+    And resimleri indirir
     And sayfayi kapatir
+    Examples:
+      | product |
+      | mango   |
+      | İpod    |
+      | Apple   |
+      | Basket  |
+
 
 #Youtube ana sayfasina gidelim . https://www.youtube.com/
 #Amazon soyfasina gidelim. https://www.amazon.com/
