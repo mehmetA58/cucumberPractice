@@ -1,3 +1,9 @@
+pages\SauceDemoPage.class
+stepdefinitions\dhtmlStepDefinitions.class
+utilities\ReusableMethods$1.class
+stepdefinitions\amazonStepDefinitions.class
+stepdefinitions\demoGuruStepDefinitions.class
+utilities\ReusableMethods.class
 pages\HerokuAppPage.class
 stepdefinitions\herokuAppStepDefinitions.class
 pages\AmazonPage.class
@@ -5,12 +11,12 @@ pages\FacebookPage.class
 stepdefinitions\Hooks.class
 utilities\ReusableMethods$2.class
 runners\Runner.class
-utilities\ReusableMethods$1.class
-stepdefinitions\amazonStepDefinitions.class
+pages\DemoGuruPage.class
 utilities\Driver.class
 stepdefinitions\TestAdressStepDefinitions.class
-pages\TestAdressPAge.class
 stepdefinitions\facebookStepDefinitions.class
 runners\FailedScenarioRunner.class
+pages\DhtmlGoodiesPage.class
 utilities\ConfigReader.class
-utilities\ReusableMethods.class
+stepdefinitions\sauceDemoStepDefinitions.class
+pages\TestAdressPage.class

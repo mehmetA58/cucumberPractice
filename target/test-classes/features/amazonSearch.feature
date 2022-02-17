@@ -39,14 +39,15 @@ Scenario: TC002 Youtube'a git Amazon'a dön
    Given kullanici amazon sayfasina gider
     When "<arananKelime>" için arama yapar
     Then Amazonda görüntülenen ilgili sonuçların sayısını yazdırın
-    And Amazonda görüntülenen ilgili sonuclar "<arananKelime>" iceriyormu
+    And resimleri indirir
+    #And Amazonda görüntülenen ilgili sonuclar "<arananKelime>" iceriyormu
     And sayfayi kapatir
   Examples:
     | arananKelime |
   |mango         |
   |nane          |
-  |java          |
-  |cucumber      |
+  #|java          |
+  #|cucumber      |
 
 
 
