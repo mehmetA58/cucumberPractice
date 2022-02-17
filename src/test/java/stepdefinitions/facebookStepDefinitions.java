@@ -19,7 +19,7 @@ public class facebookStepDefinitions {
 
     }
     @Then("facebook login butonunu tıklayalım")
-    public void facebook_login_butonunu_tıklayalım() {
+    public void facebook_login_butonunu_tiklayalim() {
 facebookPage.facebookLoginButon.click();
     }
     @Then("facebookBasarisizGiris dogrulama")

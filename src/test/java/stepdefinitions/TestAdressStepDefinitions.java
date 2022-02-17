@@ -20,7 +20,7 @@ public class TestAdressStepDefinitions {
     }
 
     @And("TestAdressKullanıcı adını ve şifreyi girin")
-    public void testadresskullanıcıAdınıVeŞifreyiGirin() {
+    public void testadresskullaniciAdiniVeSifreyiGirin() {
         testAdressPAge.eamailTextBox.sendKeys("testtechproed@gmail.com");
         testAdressPAge.passwordTextBox.sendKeys("Test1234!");
         testAdressPAge.loginSignInButonu.click();
@@ -39,7 +39,7 @@ public class TestAdressStepDefinitions {
     }
 
     @Then("linklerin yazılarını yazdiralim")
-    public void linklerinYazılarınıYazdiralim() {
+    public void linklerinYazilariniYazdiralim() {
         List<WebElement>links=new ArrayList<>(Driver.getDriver().findElements(By.tagName("a")));
         String linkler;
         for (WebElement w:links) {

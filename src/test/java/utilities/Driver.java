@@ -10,7 +10,7 @@ import org.openqa.selenium.opera.OperaDriver;
 import java.util.concurrent.TimeUnit;
 
 public class Driver {
-
+    private static ThreadLocal<WebDriver> driverPool = new ThreadLocal<>();
     private Driver(){
 
     }//-->singilteon classsiç için
