@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="14" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="17" time="644.396">
+    <testcase classname="US999 amazon arama" name="TC001 amazon java arama" time="9.179">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[When kullanici amazon sayfasina gider.......................................passed
+And "mango" için arama yapar................................................undefined
+And resimleri indirir.......................................................skipped
+And sayfayi kapatir.........................................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US999 amazon arama" name="TC001 amazon java arama 2" time="7.68">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[When kullanici amazon sayfasina gider.......................................passed
+And "İpod" için arama yapar.................................................undefined
+And resimleri indirir.......................................................skipped
+And sayfayi kapatir.........................................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US999 amazon arama" name="TC001 amazon java arama 3" time="8.124">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[When kullanici amazon sayfasina gider.......................................passed
+And "Apple" için arama yapar................................................undefined
+And resimleri indirir.......................................................skipped
+And sayfayi kapatir.........................................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US999 amazon arama" name="TC001 amazon java arama 4" time="7.906">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[When kullanici amazon sayfasina gider.......................................passed
+And "Basket" için arama yapar...............................................undefined
+And resimleri indirir.......................................................skipped
+And sayfayi kapatir.........................................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US999 amazon arama" name="TC002 Youtube'a git Amazon'a dön" time="16.468">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given "youtubeURL" ana sayfasina gidelim....................................passed
+Then kullanici amazon sayfasina gider.......................................passed
+And Sayfa basliginin (title) "Amazon" icerdigi dogrulayin...................passed
+Then "youtubeURL" ana sayfasina gidelim.....................................passed
+And Sayfa URL’inin "https://www.youtube.com/" oldugunu dogrulayin...........undefined
+Then kullanici amazon sayfasina gider.......................................skipped
+And sayfayi kapatir.........................................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US999 amazon arama" name="TC006 Amazon Arama" time="29.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+When "mango" için arama yapar...............................................undefined
+Then Amazonda görüntülenen ilgili sonuçların sayısını yazdırın..............skipped
+And resimleri indirir.......................................................skipped
+And sayfayi kapatir.........................................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US999 amazon arama" name="TC006 Amazon Arama 2" time="62.353">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+When "nane" için arama yapar................................................undefined
+Then Amazonda görüntülenen ilgili sonuçların sayısını yazdırın..............skipped
+And resimleri indirir.......................................................skipped
+And sayfayi kapatir.........................................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1006 Demo guru Drag and Drop" name="TC009 Drag and Drop" time="71.88">
+        <system-out>
+            <![CDATA[Given "demoGuruURL" ana sayfasina gidelim...................................passed
+Then Drag and drop the second 5000 button to the Amount section in CREDIT SIDE.passed
+And Drag and drop the BANK button to the Account section in DEBIT SIDE......passed
+Then Drag and drop the SALES button to the Account section in CREDIT SIDE...passed
+And Drag and drop the 5000 button to the Amount section in DEBIT SIDE.......passed
+When PerfectButton visibilty do test........................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US 1000 deneme" name="_2" time="15.26">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+When "java" için arama yapar................................................undefined
+Then Amazonda görüntülenen ilgili sonuclar "java" iceriyormu................skipped
+And Amazonda görüntülenen ilgili sonuçların sayısını yazdırın...............skipped
+And sayfayi kapatir.........................................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US 1000 deneme" name="_3" time="30.255">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+When "mango" için arama yapar...............................................undefined
+Then Amazonda görüntülenen ilgili sonuclar "mango" iceriyormu...............skipped
+And Amazonda görüntülenen ilgili sonuçların sayısını yazdırın...............skipped
+And sayfayi kapatir.........................................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US 1000 deneme" name="_4" time="34.982">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given kullanici amazon sayfasina gider......................................passed
+When "miniCooper" için arama yapar..........................................undefined
+Then Amazonda görüntülenen ilgili sonuclar "miniCooper" iceriyormu..........skipped
+And Amazonda görüntülenen ilgili sonuçların sayısını yazdırın...............skipped
+And sayfayi kapatir.........................................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="US1007" name="TC010" time="82.241">
+        <system-out>
+            <![CDATA[Given "dhtmlgoodies" ana sayfasina gidelim..................................passed
+Then DhtmlFill in capitals by country.......................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="1002 Facebook Handle" name="TC003 Facebook" time="37.604">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given "facebookURL" ana sayfasina gidelim...................................passed
+Then facebookEmailTextboxa email yazdiralim.................................passed
+Then facebookPasswordTextboxa sifre yazdiralim..............................passed
+And facebook login butonunu tıklayalım......................................undefined
+Then facebookBasarisizGiris dogrulama.......................................skipped
+And sayfayi kapatir.........................................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="1004 Herokuapp visit and click" name="TC005 herokuapp visit." time="75.148">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given "herokuAppUrl" ana sayfasina gidelim..................................passed
+Then Add Element butonuna tiklayin..........................................passed
+And Delete butonu’nun gorunur oldugunu test edin............................undefined
+Then Delete tusuna tiklayalim...............................................skipped
+And sayfayi kapatir.........................................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="1004 Herokuapp visit and click" name="TC007 Authentication" time="115.827">
+        <system-out>
+            <![CDATA[Given "authenticationUrl" ana sayfasina gidelim.............................passed
+Then herokuappBasariliGirisDogrula..........................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="1005 https://www.saucedemo.com Adresine gidin" name="TC 008 Sepete Ürün Ekleme" time="32.03">
+        <failure message="unknown error: cannot determine loading status&#10;from unknown error: cannot determine loading status&#10;from disconnected: received Inspector.detached event&#10;  (Session info: chrome=98.0.4758.102)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'PC', ip: '192.168.1.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.11'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\pc1\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:53252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f46e6c63897d8487e3a32c13fe85c8c1" type="org.openqa.selenium.WebDriverException">
+            <![CDATA[Given "sauceDemoURL" ana sayfasina gidelim..................................failed
+Then Username kutusuna “standard_user” yazdirin.............................skipped
+And Password kutusuna “secret_sauce” yazdirin...............................skipped
+When Login tusuna basin.....................................................skipped
+Then Ilk urunun ismini kaydedin ve bu urunun sayfasina gidin................skipped
+And Add to Cart butonuna basin..............................................skipped
+And Alisveris sepetine tiklayin.............................................skipped
+Then Sectiginiz urunun basarili olarak sepete eklendigini control edin......skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PC', ip: '192.168.1.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\pc1\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:53252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f46e6c63897d8487e3a32c13fe85c8c1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at stepdefinitions.amazonStepDefinitions.anaSayfasinaGidelim(amazonStepDefinitions.java:53)
+	at ✽."sauceDemoURL" ana sayfasina gidelim(file:///C:/Users/pc1/eclipse-workspace/com.Cucumber/src/test/resources/features/saucedemo.feature:16)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="1003 TestAdress" name="TC005 TestAddressBook" time="8.015">
+        <failure message="chrome not reachable&#10;  (Session info: chrome=98.0.4758.102)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'PC', ip: '192.168.1.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.11'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\pc1\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:53252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f46e6c63897d8487e3a32c13fe85c8c1" type="org.openqa.selenium.WebDriverException">
+            <![CDATA[Given "testAdressUrl" ana sayfasina gidelim.................................failed
+Then TestAdreesAnasayfa Sign in butonuna tiklayin...........................skipped
+And TestAdressKullanıcı adını ve şifreyi girin..............................skipped
+Then Expecteduserid'yi dogrulayon...........................................skipped
+And Sayfada kac tane link oldugunu bulun....................................skipped
+Then linklerin yazılarını yazdiralim........................................skipped
+And sayfayi kapatir.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PC', ip: '192.168.1.37', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\pc1\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:53252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f46e6c63897d8487e3a32c13fe85c8c1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at stepdefinitions.amazonStepDefinitions.anaSayfasinaGidelim(amazonStepDefinitions.java:53)
+	at ✽."testAdressUrl" ana sayfasina gidelim(file:///C:/Users/pc1/eclipse-workspace/com.Cucumber/src/test/resources/features/testAdress.feature:16)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

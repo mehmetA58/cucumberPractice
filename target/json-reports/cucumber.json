@@ -1,0 +1,1774 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-17T13:19:10.998Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "TC001 amazon java arama",
+        "description": "",
+        "id": "us999-amazon-arama;tc001-amazon-java-arama;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9157891600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "\"mango\" için arama yapar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000900,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "resimleri indirir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.resimleriIndirir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hepsi"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-17T13:19:20.191Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "TC001 amazon java arama",
+        "description": "",
+        "id": "us999-amazon-arama;tc001-amazon-java-arama;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7676347600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "\"İpod\" için arama yapar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "resimleri indirir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.resimleriIndirir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hepsi"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-17T13:19:27.881Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "TC001 amazon java arama",
+        "description": "",
+        "id": "us999-amazon-arama;tc001-amazon-java-arama;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8118316600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "\"Apple\" için arama yapar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000400,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "resimleri indirir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.resimleriIndirir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hepsi"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-17T13:19:36.016Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "TC001 amazon java arama",
+        "description": "",
+        "id": "us999-amazon-arama;tc001-amazon-java-arama;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7904416900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "\"Basket\" için arama yapar",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "resimleri indirir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.resimleriIndirir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hepsi"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-17T13:19:43.939Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "TC002 Youtube\u0027a git Amazon\u0027a dön",
+        "description": "",
+        "id": "us999-amazon-arama;tc002-youtube-a-git-amazon-a-dön",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7035013100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "\"youtubeURL\" ana sayfasina gidelim",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"youtubeURL\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.anaSayfasinaGidelim(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7421914200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27016800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Sayfa basliginin (title) \"Amazon\" icerdigi dogrulayin.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amazon\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.sayfaBasligininTitleIcerdigiDogrulayin(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1979626800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "\"youtubeURL\" ana sayfasina gidelim",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"youtubeURL\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.anaSayfasinaGidelim(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "Sayfa URL’inin \"https://www.youtube.com/\" oldugunu dogrulayin",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hepsi"
+          },
+          {
+            "name": "@tekrarAmazon"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-17T13:20:00.426Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "TC006 Amazon Arama",
+        "description": "",
+        "id": "us999-amazon-arama;tc006-amazon-arama;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29001798200,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48,
+            "name": "\"mango\" için arama yapar",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "Amazonda görüntülenen ilgili sonuçların sayısını yazdırın",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "resimleri indirir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.resimleriIndirir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hepsi"
+          },
+          {
+            "name": "@amazonOutline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-17T13:20:29.440Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "TC006 Amazon Arama",
+        "description": "",
+        "id": "us999-amazon-arama;tc006-amazon-arama;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 62345663500,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 48,
+            "name": "\"nane\" için arama yapar",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "Amazonda görüntülenen ilgili sonuçların sayısını yazdırın",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "resimleri indirir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.resimleriIndirir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2001900,
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hepsi"
+          },
+          {
+            "name": "@amazonOutline"
+          }
+        ]
+      }
+    ],
+    "name": "US999 amazon arama",
+    "description": "",
+    "id": "us999-amazon-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/amazonSearch.feature",
+    "tags": [
+      {
+        "name": "@hepsi",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-17T13:21:31.810Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "TC009 Drag and Drop",
+        "description": "",
+        "id": "us1006-demo-guru-drag-and-drop;tc009-drag-and-drop",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36820461700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "\"demoGuruURL\" ana sayfasina gidelim",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demoGuruURL\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.anaSayfasinaGidelim(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 770903300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Drag and drop the second 5000 button to the Amount section in CREDIT SIDE",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5000",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.demoGuruStepDefinitions.drag_and_drop_the_second_button_to_the_amount_section_in_credit_side(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 272395000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Drag and drop the BANK button to the Account section in DEBIT SIDE",
+            "match": {
+              "location": "stepdefinitions.demoGuruStepDefinitions.drag_and_drop_the_bank_button_to_the_account_section_in_debit_side()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 816937200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Drag and drop the SALES button to the Account section in CREDIT SIDE",
+            "match": {
+              "location": "stepdefinitions.demoGuruStepDefinitions.drag_and_drop_the_sales_button_to_the_account_section_in_credit_side()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 253717100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Drag and drop the 5000 button to the Amount section in DEBIT SIDE",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5000",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.demoGuruStepDefinitions.drag_and_drop_the_button_to_the_amount_section_in_debit_side(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3192208300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "PerfectButton visibilty do test",
+            "match": {
+              "location": "stepdefinitions.demoGuruStepDefinitions.perfect_button_visibilty_do_test()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29751504200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "US1006 Demo guru Drag and Drop",
+    "description": "",
+    "id": "us1006-demo-guru-drag-and-drop",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/demoGuru.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-17T13:22:43.705Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "",
+        "description": "",
+        "id": "us-1000-deneme;;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15259381200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "\"java\" için arama yapar",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Amazonda görüntülenen ilgili sonuclar \"java\" iceriyormu",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Amazonda görüntülenen ilgili sonuçların sayısını yazdırın",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-17T13:22:58.971Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1002100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "",
+        "description": "",
+        "id": "us-1000-deneme;;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1001600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30252424000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "\"mango\" için arama yapar",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000300,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Amazonda görüntülenen ilgili sonuclar \"mango\" iceriyormu",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Amazonda görüntülenen ilgili sonuçların sayısını yazdırın",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-17T13:23:29.238Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "",
+        "description": "",
+        "id": "us-1000-deneme;;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34977872700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "\"miniCooper\" için arama yapar",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Amazonda görüntülenen ilgili sonuclar \"miniCooper\" iceriyormu",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Amazonda görüntülenen ilgili sonuçların sayısını yazdırın",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "US 1000 deneme",
+    "description": "",
+    "id": "us-1000-deneme",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/deneme.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-17T13:24:04.229Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "TC010",
+        "description": "",
+        "id": "us1007;tc010",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16819564900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"dhtmlgoodies\" ana sayfasina gidelim",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dhtmlgoodies\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.anaSayfasinaGidelim(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11904144300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "DhtmlFill in capitals by country",
+            "match": {
+              "location": "stepdefinitions.dhtmlStepDefinitions.dhtml_fill_in_capitals_by_country()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 53517363900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Dhtml"
+          }
+        ]
+      }
+    ],
+    "name": "US1007",
+    "description": "",
+    "id": "us1007",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/dhtmlgoodies.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-17T13:25:26.481Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "TC003 Facebook",
+        "description": "",
+        "id": "1002-facebook-handle;tc003-facebook",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36621067100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "\"facebookURL\" ana sayfasina gidelim",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"facebookURL\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.anaSayfasinaGidelim(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 894688200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "facebookEmailTextboxa email yazdiralim",
+            "match": {
+              "location": "stepdefinitions.facebookStepDefinitions.facebook_email_textboxa_email_yazdiralim()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87058300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "facebookPasswordTextboxa sifre yazdiralim",
+            "match": {
+              "location": "stepdefinitions.facebookStepDefinitions.facebook_password_textboxa_sifre_yazdiralim()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "facebook login butonunu tıklayalım",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "facebookBasarisizGiris dogrulama",
+            "match": {
+              "location": "stepdefinitions.facebookStepDefinitions.facebook_basarisiz_giris_dogrulama()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hepsi"
+          }
+        ]
+      }
+    ],
+    "name": "1002 Facebook Handle",
+    "description": "",
+    "id": "1002-facebook-handle",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/facebook.feature",
+    "tags": [
+      {
+        "name": "@hepsi",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-17T13:26:04.100Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "TC005 herokuapp visit.",
+        "description": "",
+        "id": "1004-herokuapp-visit-and-click;tc005-herokuapp-visit.",
+        "after": [
+          {
+            "result": {
+              "duration": 999700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 72978133900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "\"herokuAppUrl\" ana sayfasina gidelim",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"herokuAppUrl\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.anaSayfasinaGidelim(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2167175900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Add Element butonuna tiklayin",
+            "match": {
+              "location": "stepdefinitions.herokuAppStepDefinitions.add_element_butonuna_tiklayin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "Delete butonu’nun gorunur oldugunu test edin",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Delete tusuna tiklayalim",
+            "match": {
+              "location": "stepdefinitions.herokuAppStepDefinitions.delete_tusuna_tiklayalim()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hepsi"
+          },
+          {
+            "name": "@herokuapp"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-17T13:27:19.254Z",
+        "before": [
+          {
+            "result": {
+              "duration": 998900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "TC007 Authentication",
+        "description": "",
+        "id": "1004-herokuapp-visit-and-click;tc007-authentication",
+        "after": [
+          {
+            "result": {
+              "duration": 1000400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 47963142800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "\"authenticationUrl\" ana sayfasina gidelim",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"authenticationUrl\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.anaSayfasinaGidelim(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2027850000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "herokuappBasariliGirisDogrula",
+            "match": {
+              "location": "stepdefinitions.herokuAppStepDefinitions.herokuappbasariligirisdogrula()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65832304300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hepsi"
+          }
+        ]
+      }
+    ],
+    "name": "1004 Herokuapp visit and click",
+    "description": "",
+    "id": "1004-herokuapp-visit-and-click",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/herokuapp.feature",
+    "tags": [
+      {
+        "name": "@hepsi",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-17T13:29:15.091Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1001000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "TC 008 Sepete Ürün Ekleme",
+        "description": "",
+        "id": "1005-https://www.saucedemo.com-adresine-gidin;tc-008-sepete-ürün-ekleme",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d98.0.4758.102)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u002711.0.11\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\\Users\\pc1\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:53252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f46e6c63897d8487e3a32c13fe85c8c1\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat stepdefinitions.Hooks.tearDown(Hooks.java:20)\r\n",
+              "duration": 4013811000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d98.0.4758.102)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u002711.0.11\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\\Users\\pc1\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:53252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f46e6c63897d8487e3a32c13fe85c8c1\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat stepdefinitions.amazonStepDefinitions.anaSayfasinaGidelim(amazonStepDefinitions.java:53)\r\n\tat ✽.\"sauceDemoURL\" ana sayfasina gidelim(file:///C:/Users/pc1/eclipse-workspace/com.Cucumber/src/test/resources/features/saucedemo.feature:16)\r\n",
+              "duration": 28009081400,
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "\"sauceDemoURL\" ana sayfasina gidelim",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sauceDemoURL\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.anaSayfasinaGidelim(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Username kutusuna “standard_user” yazdirin",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Password kutusuna “secret_sauce” yazdirin",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Login tusuna basin",
+            "match": {
+              "location": "stepdefinitions.sauceDemoStepDefinitions.login_tusuna_basin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000700,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Ilk urunun ismini kaydedin ve bu urunun sayfasina gidin",
+            "match": {
+              "location": "stepdefinitions.sauceDemoStepDefinitions.ilk_urunun_ismini_kaydedin_ve_bu_urunun_sayfasina_gidin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Add to Cart butonuna basin",
+            "match": {
+              "location": "stepdefinitions.sauceDemoStepDefinitions.add_to_cart_butonuna_basin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Alisveris sepetine tiklayin",
+            "match": {
+              "location": "stepdefinitions.sauceDemoStepDefinitions.alisveris_sepetine_tiklayin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Sectiginiz urunun basarili olarak sepete eklendigini control edin",
+            "match": {
+              "location": "stepdefinitions.sauceDemoStepDefinitions.sectiginiz_urunun_basarili_olarak_sepete_eklendigini_control_edin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "1005 https://www.saucedemo.com Adresine gidin",
+    "description": "",
+    "id": "1005-https://www.saucedemo.com-adresine-gidin",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/saucedemo.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-17T13:29:47.128Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "TC005 TestAddressBook",
+        "description": "",
+        "id": "1003-testadress;tc005-testaddressbook",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d98.0.4758.102)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u002711.0.11\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\\Users\\pc1\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:53252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f46e6c63897d8487e3a32c13fe85c8c1\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat stepdefinitions.Hooks.tearDown(Hooks.java:20)\r\n",
+              "duration": 4006184800,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d98.0.4758.102)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027PC\u0027, ip: \u0027192.168.1.37\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u002711.0.11\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\\Users\\pc1\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:53252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f46e6c63897d8487e3a32c13fe85c8c1\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat stepdefinitions.amazonStepDefinitions.anaSayfasinaGidelim(amazonStepDefinitions.java:53)\r\n\tat ✽.\"testAdressUrl\" ana sayfasina gidelim(file:///C:/Users/pc1/eclipse-workspace/com.Cucumber/src/test/resources/features/testAdress.feature:16)\r\n",
+              "duration": 4005007900,
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "\"testAdressUrl\" ana sayfasina gidelim",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testAdressUrl\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.anaSayfasinaGidelim(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "TestAdreesAnasayfa Sign in butonuna tiklayin",
+            "match": {
+              "location": "stepdefinitions.TestAdressStepDefinitions.testadreesanasayfaSignInButonunaTiklayin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "TestAdressKullanıcı adını ve şifreyi girin",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Expecteduserid\u0027yi dogrulayon",
+            "match": {
+              "location": "stepdefinitions.TestAdressStepDefinitions.expecteduseridYiDogrulayon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Sayfada kac tane link oldugunu bulun.",
+            "match": {
+              "location": "stepdefinitions.TestAdressStepDefinitions.sayfadaKacTaneLinkOldugunuBulun()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001000,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "linklerin yazılarını yazdiralim",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hepsi"
+          },
+          {
+            "name": "@testAdress"
+          }
+        ]
+      }
+    ],
+    "name": "1003 TestAdress",
+    "description": "",
+    "id": "1003-testadress",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/testAdress.feature",
+    "tags": [
+      {
+        "name": "@hepsi",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

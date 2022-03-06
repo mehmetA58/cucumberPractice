@@ -1,0 +1,6 @@
+file:src/test/resources/features/facebook.feature:4
+file:src/test/resources/features/testAdress.feature:15
+file:src/test/resources/features/deneme.feature:11:12:13
+file:src/test/resources/features/saucedemo.feature:14
+file:src/test/resources/features/amazonSearch.feature:14:15:16:17:27:55:56
+file:src/test/resources/features/herokuapp.feature:10

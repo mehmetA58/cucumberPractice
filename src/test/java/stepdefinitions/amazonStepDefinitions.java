@@ -30,11 +30,7 @@ public class amazonStepDefinitions {
 
     }
 
-    @When("{string} için arama yapar")
-    public void icin_arama_yapar(String aranacakKelime) {
-        amazonPage.searchBox.sendKeys(aranacakKelime + Keys.ENTER);
 
-    }
 
     @Then("sonucun java icerdigini test eder")
     public void sonucun_java_icerdigini_test_eder() {
@@ -51,6 +47,10 @@ public class amazonStepDefinitions {
     @Given("{string} ana sayfasina gidelim")
     public void anaSayfasinaGidelim(String sayfaURL) {
         Driver.getDriver().get(ConfigReader.getProperty(sayfaURL));
+        String expectedURL=ConfigReader.getProperty("amazonUrlTR");
+        String actualURL=Driver.getDriver().getCurrentUrl();
+        Assert.assertEquals("Amazon URL Hatalı",expectedURL,actualURL);
+        amazonPage.CookiesAccept.click();
     }
 
 
@@ -70,10 +70,20 @@ public class amazonStepDefinitions {
         System.out.println("amazon sonucYazisi = " + amazonPage.sonucYazisi.getText());
     }
 
-    @And("Amazonda görüntülenen ilgili sonuclar {string} iceriyormu")
-    public void amazondaGoruntulenenIlgiliSonuclarIceriyormu(String arananKelime) {
+
+
+    @Then("{string} için arama yapar")
+    public void için_arama_yapar(String aranacakKelime) {
+        amazonPage.searchBox.sendKeys(aranacakKelime + Keys.ENTER);
+    }
+    @Then("Amazonda görüntülenen ilgili sonuclar {string} iceriyormu")
+    public void amazonda_görüntülenen_ilgili_sonuclar_iceriyormu(String arananKelime) {
         Assert.assertTrue(amazonPage.sonucYazisi.getText().contains(arananKelime));
     }
+
+
+
+
 
     @And("resimleri indirir")
     public void resimleriIndirir() throws IOException {
@@ -88,5 +98,27 @@ public class amazonStepDefinitions {
 
         }
     }
+
+    @And("Click iPhone{int} at the top of the list")
+    public void clickIPhoneAtTheTopOfTheList(int arg0) {
+        amazonPage.productAtTheTopOfTheList.click();
+    }
+
+    @And("Log the following values for each size")
+    public void logTheFollowingValuesForEachSize() throws InterruptedException {
+        for (int i=amazonPage.productSize.size()-1 ; i >=0 ; i--) {
+                amazonPage.productSize.get(i).click();
+            try {
+                Thread.sleep(5000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+                System.out.println(amazonPage.productTitle.getText()+" "+"Size : "+amazonPage.Size.getText());
+                System.out.println("Color: "+amazonPage.productColor.getText()+" "+"Price : "+amazonPage.prodPrice.getText()+","+amazonPage.prodPriceFrac.getText()+"TL");
+                System.out.println("Stock: "+amazonPage.stok.getText());
+
+        }
+    }
+
 
 }
